@@ -6,6 +6,8 @@
 #include <QPlainTextEdit>
 #include <QAction>
 #include <QProcess>
+#include <QLineEdit>
+#include <QPushButton>
 
 class MainWindow : public QMainWindow
 {
@@ -15,6 +17,7 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
 
 private:
+
     void setupMenu();
     void openFile();
     void saveFile();
@@ -26,8 +29,11 @@ private:
     QAction *openAction;
     QAction *saveAction;
     QAction *runAction;
+    QLineEdit *inputBox;
+    QPushButton *enterButton;
 
     QProcess *process;
+
 };
 
 #endif
