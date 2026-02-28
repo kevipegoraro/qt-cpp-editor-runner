@@ -1,10 +1,3 @@
-Here is a clean **student-focused README** suitable for GitHub.
-Goal: easy download → build → run immediately.
-
-You can paste this directly into `README.md`.
-
----
-
 # Qt C++ Editor & Runner
 
 A lightweight **C++ editor and runner built with Qt**, designed for students who want a simple way to write, compile, and run C++ programs without configuring complex IDE environments.
